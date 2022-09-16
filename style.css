@@ -1,0 +1,42 @@
+body {
+ width: 100%;
+ height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.body-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background: rgb(132, 179, 197);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  border:2px solid rgba(0,0,0,0.2);
+  border-radius: 10%;
+}
+.text-render {
+    font-size: 26px;
+}
+.text {
+  text-align: center;
+}
+
+.error {
+  padding-block: 15px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
